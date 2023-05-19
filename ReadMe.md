@@ -1,1 +1,1 @@
-Landing Page repo with Tailwind CSS 
+Landing Page repo with Tailwind CSS tutorial
