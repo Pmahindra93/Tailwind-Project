@@ -594,6 +594,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -616,6 +620,10 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
@@ -707,6 +715,10 @@ video {
        column-gap: 6rem;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -747,6 +759,11 @@ video {
 .bg-bookmark-white {
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -819,6 +836,11 @@ video {
   text-transform: uppercase;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-bookmark-blue {
   --tw-text-opacity: 1;
   color: rgb(36 42 69 / var(--tw-text-opacity));
@@ -878,6 +900,11 @@ video {
   background-color: rgb(82 103 223 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-bookmark-red:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 89 89 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-bookmark-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
@@ -891,6 +918,11 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 @media (min-width: 640px) {
@@ -912,6 +944,10 @@ video {
 
   .sm\:w-3\/4 {
     width: 75%;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
   }
 }
 
